@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f5f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav{
+    background: #0ea5e9;
+    height: 50px;
+    border-bottom: 3px solid #0369a1;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px 20px;
+    line-height: 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #fde047;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    background: white;
+    min-height: 500px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    background: linear-gradient(180deg, #38bdf8, #0ea5e9);
+    color: white;
+    min-height: 500px;
+    padding: 20px;
+}
+
+footer{
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.imagen-web{
+    width: 300px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.tabla-web{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-web th{
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+}
+
+.tabla-web td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.formulario-web{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-web input,
+.formulario-web textarea,
+.formulario-web select{
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario-web input[type="submit"]{
+    background: #1e293b;
+    color: white;
+    cursor: pointer;
+}
